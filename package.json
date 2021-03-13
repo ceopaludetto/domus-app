@@ -1,0 +1,44 @@
+{
+  "name": "domusapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apisauce": "^0.16.0",
+    "d3": "^5.7.0",
+    "react": "16.4.1",
+    "react-native": "^0.56.1",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-cli": "^2.0.1",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-search-filter": "^0.1.4",
+    "react-native-svg": "^7.0.3",
+    "react-native-svg-charts": "^5.2.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-native-virtual-keyboard": "^1.0.8",
+    "react-navigation": "^2.11.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reduxsauce": "^1.0.0",
+    "socket.io-client": "^2.1.1",
+    "styled-components": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
